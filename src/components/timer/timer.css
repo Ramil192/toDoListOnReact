@@ -1,0 +1,49 @@
+.todo-list li .icon-pause,
+.todo-list li .icon-play {
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+
+.todo-list li .icon-play {
+  font-size: 15px;
+}
+
+.icon-pause:after {
+  content: '⏸';
+}
+
+.icon-play:after {
+  content: '▶';
+}
+
+.todo-list li .icon-pause,
+.todo-list li .icon-play {
+  cursor: pointer;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+
+.todo-list li .icon-play {
+  font-size: 15px;
+}
+
+.icon-pause:after {
+  content: '⏸';
+}
+
+.icon-play:after {
+  position: absolute;
+  content: '▶';
+  bottom: -1px;
+  left: 0px;
+}
+.modivit {
+  display: flex !important;
+  position: relative;
+}
+.timer {
+  margin-left: 10px;
+  margin-top: 5px;
+}
